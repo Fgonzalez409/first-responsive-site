@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(203, 24, 24);
+    width:750px;
+    margin: auto;
+}
+
+.grid-container {
+    background-color: blue;
+    width: 90%;
+    margin: auto;
+}
+.row-1 {
+    display: flex;
+    width: 95%;
+    height: 48%;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 10pt;
+    font-size: 35px;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height:48%;
+    width:95%;
+    margin: auto;
+    color:white;   
+}
+
+.btm-row-container {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    background-color: black;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.col-1 {
+    width: 33%;
+}
+
+#title-1-bkg {
+    height: 20px;
+    width: 25%;
+    background-color: red;
+    margin: auto;
+}
+
+#title-1 {
+    margin:auto;
+    font-size: 35px;
+}
+
+
+
+.col-2 {
+    width: 33%;;
+}
+
+#title-2-bkg {
+    height: 20px;
+    width: 25%;
+    background-color: indianred;
+    margin: auto;
+}
+
+#title-2 {
+    margin:auto;
+    font-size: 35px;
+}
+
+.col-3 {
+    width: 33%;
+}
+
+#title-3-bkg {
+    height: 20px;
+    width: 25%;
+    background-color: magenta;
+    margin: auto;
+}
+
+#title-3 {
+    margin:auto;
+    font-size: 35px;
+}
+
+/* positioning of the titles */
+
+div#title-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div#title-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div#title-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media (max-width: 576px){
+    body {
+        background-color: aliceblue;
+        margin: auto;
+    }
+
+    .grid-container {
+        background-color: blue;
+        margin: auto;
+        grid
+    }
+    
+}
