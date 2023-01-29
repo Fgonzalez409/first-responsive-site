@@ -4,18 +4,19 @@ html {
 
 body {
     background-color: rgb(203, 24, 24);
-    width:500px;
+    width:800px;
     margin: auto;
 }
 
 .grid-container {
-    width: 90%;
+    width: 100%;
+    height:90%;
     margin: auto;
 }
 .row-1 {
     display: flex;
     width: 100%;
-    height: 48%;
+    height: 50%;
     justify-content: center;
     align-items: center;
     background-color: aqua;
@@ -28,7 +29,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: black;
-    height:48%;
+    height:50%;
     width:100%;
     margin: auto;
     color:white;   
@@ -45,11 +46,13 @@ body {
 }
 
 article {
-    margin: auto;
+    margin-left: 25pt;
+
 }
 
 .col-1 {
     width: 33%;
+    margin: auto;
 }
 
 #title-1-bkg {
@@ -120,13 +123,14 @@ div#title-3 {
     body {
         width:450px;
         min-width: 450px;
-        height: 1200px;
+        height: 1360px;
         background-color: black;
         margin: auto;
     }
 
     .grid-container {
         width: 450px;
+        height: 1310px;
         margin: auto;
         border: 4px solid white;
         margin-top: 10pt;
@@ -141,7 +145,7 @@ div#title-3 {
     }
 
     .row-2 {
-        height:650px;
+        height:850px;
     }
 
     .btm-row-container {
